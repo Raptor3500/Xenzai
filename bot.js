@@ -1,1 +1,4 @@
-console.log("hello mortal");
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+
+bot.login('Token');
